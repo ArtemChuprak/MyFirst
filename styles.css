@@ -2,103 +2,90 @@
 font-family: "TT Lakes";
 src: url("./assets/TTLakes/TTLakes-Regular.woff") format("woff"),
 url("./assets/TTLakes/TTLakes-Bold.woff") format("woff");
-      
+          
 font-weight: normal;
 font-style: normal;
 }
-
+    
 @font-face {
 font-family: "TT Lakes Bold";
 src: url("./assets/TTLakes/TTLakes-Bold.woff") format("woff");
-      
+          
 font-weight: normal;
 font-style: normal;
 }
-
+    
 html, h1 {
 box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
-
+    
 *, *::before, *::after {
 box-sizing: inherit;
 }
-
+    
 body {
 margin: 0;  
 font-family: "TT Lakes"; 
 color: #1B1C21;
 }
 
-.header__right-info {
-display: none;
+aside {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 320px;
+height: 100vh;
+padding: 24px;
+box-shadow: 10px 10px 37px -6px;
 }
 
-.main__text--second {
-display: none;  
+.header{
+height: 50px;
+}
+    
+.header__nav {
+display: flex; 
+width: 100%;
+    align-items: center;
 }
 
-.main__title-image--tablet {
-display: none;   
+.header__left--menu {
+display: flex;
+width: 200px;
+align-items: center;
 }
 
-.main__title-image--desktop {
-display: none;     
-}
-
-.header__divider {
-content: '';
-width: 2px;
-height: 32px;
-background: #EAEAEA;
-border-radius: 1px;
-display: inline-block;
-margin-right: 20px; 
-margin-top: 5px;
-}
-
-.container {
-min-width: 320px;
-}
-
-.header__wrapper {
+.header__right--menu{
 display: flex;
 align-items: center;
-justify-content: space-between;
-width: 100%;
-height: 88px;
-padding: 19px 16px;
-background: #FFFFFF;
 }
 
-button {   
+button {
 border: none;
 outline: none;
 border-radius: 50%;
 cursor: pointer;
 }
 
-.header__left-menu {
-display: flex;
-}
-
-.header__right-menu {
-display: flex;
+button:hover {
+filter: opacity(80%);
+transform: scale(1.1);
 }
 
 .header__item {
-height: 40px;
 width: 40px;
+height: 40px;
+}
+    
+.left_close{
+background-image: url(./assets/icons/burger.svg);
+margin-right: 17px;
 }
 
 .header__logo {
 display: flex;
-}
-
-.menu {
-margin-right: 17px;
-background-image: url(./assets/icons/main.svg);       
 }
 
 .logo {
@@ -106,224 +93,122 @@ height: 50px;
 width: 96px;
 }
 
-.header__item-application {
-margin-right: 17px;   
-background-image: url(./assets/icons/application.svg);
+.search{
+
+background-image: url(./assets/icons/search.svg);
 }
 
-
-.header__divider {
-content: '';
-width: 2px;
-height: 32px;
-background: #EAEAEA;
-border-radius: 1px;
-display: inline-block;
-margin-right: 20px; 
-margin-top: 5px;
+.main{
+width: 226px;
+margin-left: -24px;
 }
 
-.header__navigation {
+button.header__item.search{
+margin-left: 70px;
+}
+
+.highlight{
+margin-bottom: -71px;
+}
+
+a {
+text-decoration: none;
+font-family: 'TT Lakes';
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.2px;
+color: #1B1C21;
+font-weight: bold;
+}
+
+.main__menu {
+list-style: none;
+padding-left: 24px;
+}
+
+.main__item{  
+padding-top: 21px;
+}
+
+.link {
+color: #7E7E82;
+}
+
+.footer__info {
 display: flex;
+/* margin-top: 250px; */
 }
 
-.header__item-status {
-background-image: url(./assets/icons/status.svg);
-}
+.footer__item {
+height: 40px;
+width: 40px;
+} 
 
-.header__item-call {
+.footer__item--call {
 margin-right: 17px;
 background-image: url(./assets/icons/call.svg);
 }
-
-.header__item-profile {
+    
+.footer__item--profile {
 margin-right: 17px;
 background-image: url(./assets/icons/profile.svg);
 }
-
-.header__item-chat {
+    
+.footer__item--chat {
 margin-right: 17px;
 background-image: url(./assets/icons/chat.svg);
 }
 
-main {
-padding-top:  24px; 
-height: 509px;   
-background: #F8F8F8;
+.mail-text{
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.2px;
 }
 
-.main__title {  
+.phone-number{
+font-size: 24px;
+line-height: 32px;
+font-weight: bold;
+font-family: "TT Lakes Bold";
+}
+
+.footer__languages{
+margin-top: 30px;
+}
+
+.footer__changer{
 display: flex;
-height: 40px;
-margin-bottom: 20px;
+list-style: none;
+margin-left: -40px;
 }
 
-h1 { 
-font-family:"TT Lakes Bold";
-margin-left: 12px; 
-font-size: 28px;  
-font-weight: bold; 
+.footer__select{
+padding-right: 7px;
 }
 
-.main__slide-menu {
-padding-left: 20px;
-margin-bottom: 20px;
-height: 40px;
-display: flex;
-overflow: scroll;
-align-items: center;
-}
-
-.main__slide-menu::-webkit-scrollbar {
-display: none; 
-}
-
-.main__item {
-margin-right: 20px;
+.languages-select {
 color: #7E7E82;
 }
 
-.focus {
-padding: 8px;
-border: 2px solid #B8FFEC;
-border-radius: 6px;
-height: 40px;
-width: 246px;
-background-color: white;
+.main{
+    position: relative;
 }
 
-.main__text {
-margin-left: 16px;
-margin-right: 16px;
-font-size: 14px;
-line-height: 18px;   
-}
-
-.main__scrol--later {
-display: flex;
-margin-left: 24px;
-margin-top: 29px;
-}
-
-.main__later--read {
-margin-left: 16px ;
-font-size: 16px;
-font-weight: bold;
-}
-
-.main__title-image {
-margin-top: 20px;
-height: auto;
-}
-
-
-.main__heading {
-display: flex;
-}
-
-.main__right-menu {
-display: none;
-}
-
-@media (min-width:767px) {
-.header__logo::before {
+.main li:first-child::before{
 content: '';
-width: 2px;
-height: 32px;
-background: #EAEAEA;
-border-radius: 1px;
 display: inline-block;
-margin-right: 20px; 
-margin-top: 5px;  
-}
-    
-.header__right-info {
-display: flex;
-}
-    
-.main__text--second {
-display: flex;  
-}
-    
-.main__content {
-display: flex;
+width: 4px;
+height: 40px;
+background: #41F6D7;
+margin-right: 16px;
+position: absolute;
+left: 0;
+border-radius: 0 5px 5px 0;
+top: 10px;;
 }
 
-.main__title-image--mobile {
-display: none;  
+.footer a {
+display: block;
+margin-top: 16px;
 }
-
-.main__title-image--tablet {
-display: flex; 
-border-radius: 6px; 
-justify-content: end;
-margin-right: 17px;
-}
-   
-.main__content__text--later {
-width: 50%; 
-}
-
-img {
-border-radius: 6px;
-}
-
-.main__title-image {
-width: 50%;
-}
-    
-}
-  
-    
-@media (min-width:1120px) {
-.header__wrapper {
-display: none;
-}
-
-.main__title {
-justify-content: space-between;
-}
-
-.main__right-menu {
-display: flex;
-}
-
-.main__title-image--tablet {
-display: none;
-}
-
-.main__title-image--desktop {
-display: flex;
-width: auto;
-height: 307px;
-overflow: hidden;
-}
-
-.main__content__text--later {
-width: 50%; 
-}
-
-}
-
-.main__item_application--href {
-display: flex;
-align-items: center;  
-}
-
-.main__item_status--href {
-display: flex;
-align-items: center; 
-margin-right: 17px;
-}
-
-.text_button {
-margin-right: 8px;
-}
-
-.main__title-image--stretch {
-height: auto;
-width: 100%;
-min-width: 320px;
-min-height: 170px;
-}
-

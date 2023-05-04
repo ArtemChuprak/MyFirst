@@ -5,135 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    
-    <title>Услуги и сервис</title>
+    <title>Боковое меню</title>
 </head>
-<body>
-    <div class="container">
+<aside>
+    <div class="wrapper">
         <header class="header">
-            <div class="header__wrapper"> 
+                <div class="header__nav">
 
-                <div class="header__left-menu">
-                    <button class="header__item menu"></button>
+                    
+
+                        <button class="header__item left_close"></button>
+
+                        <div class="header__logo">
+
+                            <img class="logo" src="/assets/icons/logo.svg" alt="logo">
+
+                        </div>
+
+                    
+
+                   
+
+                        <button class="header__item search"></button>
+
+                    
+                </div>
+            </header>  
+
+            <main class="main">
+            
+
+                <ul class="main__menu">
+
+                    <li class="main__item"><a  class="link" href="#"> Ремонт техники</a></li>
+                    <li class="main__item"><a href="">Услуги и сервисы</a></li>
+                    <li class="main__item"><a href="">Корпоративным клиентам</a></li>
+                    <li class="main__item"><a href="#">Продавцам техники</a></li>
+                    <li class="main__item"><a href="#">Партнерам</a></li>
+                    <li class="main__item"><a href="#">Производителям</a></li>
+                    <li class="main__item"><a href="#">Наши сервисные центры</a></li>
+                    <li class="main__item"><a href="#">Контакты</a></li>
                         
-                    <div class="header__logo">
-                        <img class="logo" src="./assets/icons/logo.svg" alt="logo">
-                    </div>
-                </div>
+                </ul>
 
+            
 
-                <div class="header__navigation">
-
-                    <div class="header__right-info">
-                        <button class="header__item header__item-call">
-                        </button>
-                        <button class="header__item header__item-chat">
-                        </button>
-                        <button class="header__item header__item-profile">
-                        </button>
-                    </div>
-
-
-                    <div class="header__right-menu">
-                    
-                        <div class="header__divider"></div>
-                    
-                        <button class="header__item header__item-application">
-                        </button>
-                
-                        <button class="header__item header__item-status">
-                        </button>
-
-                    </div> 
-                </div>
-            </div>
-        </header>
-
-        <main class="main">
-
-            <div class="main__title">
-
-                <div class="main__heading">
-                    <img src="./assets/icons/highlight.svg" alt="highlight">
-
-                    <h1>Услуги и сервисы</h1>
-                </div>
-    
-                <div class="main__right-menu">
-                            
-                            
-                    <div class="main__item_application--href">
-                        <span class="text_button">Оставить заявку</span>
-                        <button class="header__item header__item-application"></button>
-                    </div>
-
-                    <div class="main__item_status--href">
-                        <span class="text_button">Статус ремонта</span>
-                        <button class="header__item header__item-status"></button>
-                    </div>
-
-
-                </div> 
-                    
-            </div>
-
-            <div class="main__slide-menu">
-
-                <div class="main__item focus">Ремонтируемые&nbsp;бренды</div>
-                <div class="main__item">Ремонтируемые&nbsp;устройства</div>
-                <div class="main__item">Цены&nbsp;на&nbsp;услуги</div>
-                <div class="main__item">Адреса&nbsp;сервисных&nbsp;центров</div>
-                <div class="main__item">Специальные&nbsp;цены</div>
-                <div class="main__item">Отзывы</div>
-            </div>
-
-
-            <div class="main__content">
-
-                <div class="main__content__text--later">
-
-                    <div class="main__text">
-
-                        <p class="main__text--first">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-
-
-                        <p class="main__text--second">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                    </div>
-
-                    <div class="main__scrol--later">
-                        <img src="./assets/icons/icon.svg" alt="scrol">
-                        <div class="main__later--read"> Читать далее</div>
-
-                    </div>
-                </div>
-
-                <div class="main__title-image">
-
-                    <div class="main__title-image--mobile">
-                        
-                        <img class="main__title-image--stretch" src="./assets/images/MG3223.jpg"  alt="pic">
-
-                    </div>
-
-                    <div class="main__title-image--tablet">
-                    
-                        <img src="./assets/images/MG3223tablet.jpg" alt="pic_company">
-                        
-                    </div>
-
-                    <div class="main__title-image--desktop">
-                        <img src="./assets/images/MG3223desktop.jpg" alt="pic_company_label">
-                    </div>
-
-
-
-                </div>
-
-            </div>
-
-        </main>
-
+            </main>
     </div>
-   
-</body>
+
+    <footer class="footer">
+
+        <div class="footer__info">
+
+            <button class="footer__item footer__item--call">
+            </button>
+            <button class="footer__item  footer__item--chat">
+            </button>
+            <button class="footer__item  footer__item--profile">
+            </button>
+
+        </div>
+
+        <a class="mail-text" href="mailto:mail@cps.com" >mail@cps.com</a> 
+
+        <a class="phone-number" href="tel:88008908900" >8 800 890 89 00</a>
+
+
+        <div class="footer__languages">
+
+            <ul class="footer__changer">
+
+                <li class="footer__select"><a class="languages-select" href="#">RU</a> </li>
+
+                <li class="footer__select"><a href="#">EN</a></li>
+
+                <li class="footer__select"><a href="#">CH</a></li>
+
+            </ul>
+
+        </div>
+
+    </footer>
+
+</aside>
 </html>
