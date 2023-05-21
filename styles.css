@@ -243,7 +243,7 @@ padding-bottom: 20px;
 }
 .scroll__changer__brand::before {
 content: '';
-background: url(/assets/icons/icon.svg) no-repeat center;
+background: url(./assets/icons/icon.svg) no-repeat center;
     
 top: 5px;
 left: 34px;
@@ -266,7 +266,7 @@ padding-bottom: 20px;
 
 .scroll__changer__brandon::before {
 content: '';
-background: url(/assets/icons/icon.svg) no-repeat center;
+background: url(./assets/icons/icon.svg) no-repeat center;
 top: 5px;
 left: 34px;
 width: 20px;
@@ -277,7 +277,7 @@ rotate: 180deg;
 
 .main__scrol--later::before{
 content: '';
-background: url(/assets/icons/icon.svg) no-repeat center;
+background: url(./assets/icons/icon.svg) no-repeat center;
 top: 5px;
 left: 34px;
 width: 20px;
