@@ -47,6 +47,15 @@ display: none;
 display: none;     
 }
 
+.main-brand-wrapper{
+display: none;
+
+}
+
+.main-brand-desktop {
+display: none;
+}
+
 .header__divider {
 content: '';
 width: 2px;
@@ -73,14 +82,12 @@ background: #FFFFFF;
 }
 
 button {   
-border: none;
-outline: none;
-border-radius: 50%;
 cursor: pointer;
 }
 
 .header__left-menu {
 display: flex;
+align-items: center;
 }
 
 .header__right-menu {
@@ -90,6 +97,10 @@ display: flex;
 .header__item {
 height: 40px;
 width: 40px;
+border: none;
+outline: none;
+border-radius: 50%;
+cursor: pointer;
 }
 
 .header__logo {
@@ -148,7 +159,7 @@ background-image: url(./assets/icons/chat.svg);
 
 main {
 padding-top:  24px; 
-height: 509px;   
+height: auto;   
 background: #F8F8F8;
 }
 
@@ -163,6 +174,16 @@ font-family:"TT Lakes Bold";
 margin-left: 12px; 
 font-size: 28px;  
 font-weight: bold; 
+display: contents;
+}
+
+h1::before {
+content: '';
+display: inline-block;
+width: 4px;
+height: 40px;
+background: #41F6D7;
+margin-right: 16px;
 }
 
 .main__slide-menu {
@@ -201,21 +222,81 @@ line-height: 18px;
 
 .main__scrol--later {
 display: flex;
-margin-left: 24px;
-margin-top: 29px;
+margin:  0 0 10px 24px;
+align-items: center;
+border: none;
+background: #F8F8F8;
+padding: 0;
+padding-top: 25px;
+padding-bottom: 20px;
+}
+
+.scroll__changer__brand{
+display: flex;
+margin:  0 0 10px 24px;
+align-items: center;
+border: none;
+background: #F8F8F8;
+padding: 0;
+padding-top: 25px;
+padding-bottom: 20px;
+}
+.scroll__changer__brand::before {
+content: '';
+background: url(/assets/icons/icon.svg) no-repeat center;
+    
+top: 5px;
+left: 34px;
+width: 20px;
+height: 20px;
+z-index: 10;
+
+}
+
+.scroll__changer__brandon{
+display: flex;
+margin:  0 0 10px 24px;
+align-items: center;
+border: none;
+background: #F8F8F8;
+padding: 0;
+padding-top: 25px;
+padding-bottom: 20px;
+}
+
+.scroll__changer__brandon::before {
+content: '';
+background: url(/assets/icons/icon.svg) no-repeat center;
+top: 5px;
+left: 34px;
+width: 20px;
+height: 20px;
+z-index: 10;
+rotate: 180deg;
+}
+
+.main__scrol--later::before{
+content: '';
+background: url(/assets/icons/icon.svg) no-repeat center;
+top: 5px;
+left: 34px;
+width: 20px;
+height: 20px;
+z-index: 10;
 }
 
 .main__later--read {
 margin-left: 16px ;
 font-size: 16px;
 font-weight: bold;
+font-family: "TT Lakes";
+    color: #1B1C21;
 }
 
 .main__title-image {
 margin-top: 20px;
 height: auto;
 }
-
 
 .main__heading {
 display: flex;
@@ -226,6 +307,11 @@ display: none;
 }
 
 @media (min-width:767px) {
+
+.main-brand-wrapper{
+display: block;
+}
+
 .header__logo::before {
 content: '';
 width: 2px;
@@ -272,10 +358,26 @@ border-radius: 6px;
 width: 50%;
 }
     
+.swiper-section{
+display: none;
+}
+
+
 }
   
     
 @media (min-width:1120px) {
+
+.main-brand-desktop {
+display: block
+}
+
+    
+.swiper-section{
+display: none;
+}
+    
+
 .header__wrapper {
 display: none;
 }
@@ -327,3 +429,166 @@ min-width: 320px;
 min-height: 170px;
 }
 
+/* свайпер */
+
+.swiper {
+display: flex;
+align-items: center;
+}
+
+.swiper-title {
+border-top: 1px solid #D9FFF5;
+width: 320px;
+height: 80px;
+padding: 16px;
+text-transform: uppercase;
+background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
+}
+
+.swiper-slider-container{
+height: 72px;
+position: relative;
+}
+
+.swiper-slide{
+padding: 40px; 
+}
+.swiper-wrapper {
+position: relative;
+}
+
+
+.slide-one {
+display: flex;
+width: 240px;
+height: 72px;
+border: 1px solid #EAEAEA;
+border-radius: 6px;
+background-color: #FFFFFF;
+align-items: center;
+justify-content: space-between;
+padding: 16px;
+}
+
+.slide-one-right-image {
+width: 40px;
+height: 40px;
+background-image:url(./assets/icons/go.svg);
+}
+
+.swiper-wrapper-main {
+overflow: visible;
+}
+
+.swiper-pagination {
+margin-top: 20px;
+}
+
+.pagination-wrapper {
+margin-top: 20px; 
+}
+
+.slider-overlay{
+width: 20px;
+height: 120px;
+position: absolute;
+z-index: 2;
+right: 0;
+bottom: 35px;
+background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+   
+}
+
+.main-title-tab{
+height: 80px;
+padding: 16px;
+text-transform: uppercase;
+background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
+border-top: 1px solid #D9FFF5;
+}
+
+.main-brand {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+background: #F8F8F8;
+padding: 24px;
+gap: 20px;
+overflow: hidden;
+height: 200px;
+}
+
+.brand-button{
+height: 72px;
+width: 224px;
+border-radius: 6px;
+display: flex;
+border: 1px solid #EAEAEA;
+border-radius: 6px;
+background-color: #FFFFFF;
+align-items: center;
+justify-content: space-between;
+padding: 16px;
+    
+}
+
+.main-brand-desktop-button {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+background: #F8F8F8;
+padding-top: 24px;
+gap: 20px;
+}
+
+.wrapper_scroll {
+background: #F8F8F8;
+}
+
+/* скрытие планшет */
+
+.main-brand-hidden{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background: #F8F8F8;
+padding: 0 24px;
+gap: 20px;
+
+}
+
+.desktop-brand-need-hidd {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+background: #F8F8F8;
+padding-top: 24px;
+gap: 20px;
+}
+
+.scroll__changer__brandy{
+display: flex;
+margin:  0 0 10px 24px;
+align-items: center;
+border: none;
+background: #F8F8F8;
+padding: 0;
+padding-top: 25px;
+padding-bottom: 20px;
+}
+
+
+
+.hidden {
+display:visible;
+height: auto;
+}
+
+.activite::before { 
+transform: rotate(-180deg); 
+}
+
+.swiper-slide {   
+padding: 20px 10px 20px 10px;
+   
+}
