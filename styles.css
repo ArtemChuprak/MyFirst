@@ -35,6 +35,11 @@ color: #1B1C21;
 display: none;
 }
 
+.wrapper_scroll{
+    display: none;
+}
+
+
 .main__text--second {
 display: none;  
 }
@@ -186,6 +191,21 @@ background: #41F6D7;
 margin-right: 16px;
 }
 
+.slider__but{
+    margin-top: 20px;
+    width: 224px;
+    height: 72px;
+    margin-left: 16px;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: 16px center,
+    168px 16px;
+    background-color: #ffffff ;
+
+
+}
+
 .main__slide-menu {
 padding-left: 20px;
 margin-bottom: 20px;
@@ -305,8 +325,48 @@ display: flex;
 .main__right-menu {
 display: none;
 }
+.swiper-slide {
+    padding-bottom: 40px;
+}
+
+
+.swiper-section{
+    background-color: #F8F8F8;
+
+
+}
 
 @media (min-width:767px) {
+
+
+    .slider__but{
+        margin: 0   ;
+
+
+
+    }
+
+    .swiper-slide {
+        padding: 0;
+    }
+    .wrapper_scroll{
+        display: block;
+    }
+    
+
+
+    .swiper-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        background: #F8F8F8;
+        padding: 20px;
+        gap: 30px;
+        overflow: hidden;
+        height: 180px;
+        }
+
+
 
 .main-brand-wrapper{
 display: block;
@@ -358,11 +418,15 @@ border-radius: 6px;
 width: 50%;
 }
     
-.swiper-section{
-display: none;
+
+.swiper-wrapper{
+flex-wrap: wrap;
 }
 
-
+.swiper-slide{
+width: 224px;
+height: 72px;
+}
 }
   
     
@@ -371,12 +435,6 @@ display: none;
 .main-brand-desktop {
 display: block
 }
-
-    
-.swiper-section{
-display: none;
-}
-    
 
 .header__wrapper {
 display: none;
@@ -437,8 +495,12 @@ align-items: center;
 }
 
 .swiper-title {
+font-size: 16px;
+color: #7E7E82;
+margin: 0;
+font-weight: 400;
 border-top: 1px solid #D9FFF5;
-width: 320px;
+width: 100%;
 height: 80px;
 padding: 16px;
 text-transform: uppercase;
@@ -450,9 +512,7 @@ height: 72px;
 position: relative;
 }
 
-.swiper-slide{
-padding: 40px; 
-}
+
 .swiper-wrapper {
 position: relative;
 }
@@ -460,24 +520,21 @@ position: relative;
 
 .slide-one {
 display: flex;
-width: 240px;
+width: 224px;
 height: 72px;
 border: 1px solid #EAEAEA;
 border-radius: 6px;
 background-color: #FFFFFF;
 align-items: center;
 justify-content: space-between;
-padding: 16px;
+margin-bottom: 22px;
+
 }
 
 .slide-one-right-image {
 width: 40px;
 height: 40px;
 background-image:url(./assets/icons/go.svg);
-}
-
-.swiper-wrapper-main {
-overflow: visible;
 }
 
 .swiper-pagination {
@@ -507,16 +564,7 @@ background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
 border-top: 1px solid #D9FFF5;
 }
 
-.main-brand {
-display: flex;
-flex-wrap: wrap;
-justify-content: flex-start;
-background: #F8F8F8;
-padding: 24px;
-gap: 20px;
-overflow: hidden;
-height: 200px;
-}
+
 
 .brand-button{
 height: 72px;
@@ -547,7 +595,7 @@ background: #F8F8F8;
 
 /* скрытие планшет */
 
-.main-brand-hidden{
+/* .main-brand-hidden{
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -575,8 +623,7 @@ background: #F8F8F8;
 padding: 0;
 padding-top: 25px;
 padding-bottom: 20px;
-}
-
+} */
 
 
 .hidden {
@@ -588,7 +635,43 @@ height: auto;
 transform: rotate(-180deg); 
 }
 
-.swiper-slide {   
-padding: 20px 10px 20px 10px;
-   
+
+.lenovo{
+background-image: url("/assets/images/lenovo.svg"),
+url("/assets/icons/go.svg");
+}
+
+.samsung{
+background-image: url("/assets/icons/samsung.svg"),
+url("/assets/icons/go.svg");
+}
+
+.apple{
+background-image: url("/assets/icons/apple.svg"),
+url("/assets/icons/go.svg");
+}
+
+.sonic{
+background-image: url("/assets/icons/sonic.svg"),
+url("/assets/icons/go.svg");
+}
+
+.bosch{
+background-image: url("/assets/icons/bosch.svg"),
+url("/assets/icons/go.svg");
+}
+
+.hp{
+background-image: url("/assets/icons/hp.svg"),
+url("/assets/icons/go.svg");
+}
+
+.aser{
+background-image: url("/assets/icons/acer.svg"),
+url("/assets/icons/go.svg");
+}
+
+.sony{
+background-image: url("/assets/icons/sony.svg"),
+url("/assets/icons/go.svg");
 }
