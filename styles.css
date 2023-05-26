@@ -658,7 +658,7 @@ url("./assets/icons/go.svg");
 
 .bosch{
 background-image: url("./assets/icons/bosch.svg"),
-url("/assets/icons/go.svg");
+url("./assets/icons/go.svg");
 }
 
 .hp{
