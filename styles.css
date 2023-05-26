@@ -637,41 +637,41 @@ transform: rotate(-180deg);
 
 
 .lenovo{
-background-image: url("/assets/images/lenovo.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/images/lenovo.svg"),
+url("./assets/icons/go.svg");
 }
 
 .samsung{
-background-image: url("/assets/icons/samsung.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/samsung.svg"),
+url("./assets/icons/go.svg");
 }
 
 .apple{
-background-image: url("/assets/icons/apple.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/apple.svg"),
+url("./assets/icons/go.svg");
 }
 
 .sonic{
-background-image: url("/assets/icons/sonic.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/sonic.svg"),
+url("./assets/icons/go.svg");
 }
 
 .bosch{
-background-image: url("/assets/icons/bosch.svg"),
+background-image: url("./assets/icons/bosch.svg"),
 url("/assets/icons/go.svg");
 }
 
 .hp{
-background-image: url("/assets/icons/hp.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/hp.svg"),
+url("./assets/icons/go.svg");
 }
 
 .aser{
-background-image: url("/assets/icons/acer.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/acer.svg"),
+url("./assets/icons/go.svg");
 }
 
 .sony{
-background-image: url("/assets/icons/sony.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/sony.svg"),
+url("./assets/icons/go.svg");
 }
