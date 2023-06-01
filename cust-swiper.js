@@ -11,8 +11,12 @@ function swiperCard() {
 				pagination: {
 					el: ".swiper-pagination",
 				},
+				// slidesPerView: 1.2,
+				// spaceBetween: 5,
+
 				slidesPerView: 1.2,
-				spaceBetween: 5,
+				spaceBetween: 16,
+
 			});
 		}
 	} else if (init) {
@@ -24,5 +28,10 @@ function swiperCard() {
 	}
 }
 
+
+
 swiperCard();
 window.addEventListener("resize", swiperCard);
+
+
+
