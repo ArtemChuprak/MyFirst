@@ -584,43 +584,43 @@ transform: rotate(-180deg);
 }
 
 .lenovo{
-background-image: url("/assets/images/lenovo.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/images/lenovo.svg"),
+url("./assets/icons/go.svg");
 }
 
 .samsung{
-background-image: url("/assets/icons/samsung.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/samsung.svg"),
+url("./assets/icons/go.svg");
 }
 
 .apple{
-background-image: url("/assets/icons/apple.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/apple.svg"),
+url("./assets/icons/go.svg");
 }
 
 .sonic{
-background-image: url("/assets/icons/sonic.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/sonic.svg"),
+url("./assets/icons/go.svg");
 }
 
 .bosch{
-background-image: url("/assets/icons/bosch.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/bosch.svg"),
+url("./assets/icons/go.svg");
 }
 
 .hp{
-background-image: url("/assets/icons/hp.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/hp.svg"),
+url("./assets/icons/go.svg");
 }
 
 .aser{
-background-image: url("/assets/icons/acer.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/acer.svg"),
+url("./assets/icons/go.svg");
 }
 
 .sony{
-background-image: url("/assets/icons/sony.svg"),
-url("/assets/icons/go.svg");
+background-image: url("./assets/icons/sony.svg"),
+url("./assets/icons/go.svg");
 }
 
 
@@ -662,7 +662,7 @@ margin-top: 10px;
 }
        
 .swiper-price-button {
-background: url(/assets/icons/Group\ 10.svg) no-repeat center;
+background: url(./assets/icons/Group\ 10.svg) no-repeat center;
 width: 120px;
 height: 32px;
 outline: none;
@@ -704,7 +704,7 @@ font-weight: bold;
 .main-down-comercial-text::after {
 content: '';
 display: inline-block;
-background-image: url(/assets/icons/go.svg);
+background-image: url(./assets/icons/go.svg);
 background-repeat: no-repeat;
 background-position: center;
 width: 20px;
@@ -915,7 +915,7 @@ background-position: center;
 }
 
 .feedback__content_but{
-    background-image:url(/assets/icons/burger.svg);
+    background-image:url(./assets/icons/burger.svg);
     margin-bottom: 40px;
 }
 
@@ -928,7 +928,7 @@ background-position: center;
 }
 
 .feedback__content_buton{
-    background-image:url(/assets/icons/burger.svg);
+    background-image:url(./assets/icons/burger.svg);
     margin-bottom: 40px;
 }
 
@@ -1101,7 +1101,7 @@ font-family: "TT Lakes";
 color: #FFFFFF;
 display: flex;
 padding: 4px 12px;
-background: #FF3E79 url("/assets/icons/goside.svg") no-repeat right 3px top 5px;
+background: #FF3E79 url("./assets/icons/goside.svg") no-repeat right 3px top 5px;
 cursor: pointer;
 margin-left: auto;
 }
