@@ -1,0 +1,351 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+@font-face{font-family:"TT Lakes";src:url(fonts/TTLakes-Regular.woff) format("woff"),url(fonts/TTLakes-Bold.woff) format("woff");font-weight:normal;font-style:normal}@font-face{font-family:"TT Lakes Bold";src:url(fonts/TTLakes-Bold.woff) format("woff");font-weight:normal;font-style:normal}html,h1{box-sizing:border-box;margin:0;padding:0}*,*::before,*::after{box-sizing:inherit}body{margin:0;font-family:"TT Lakes";color:#1b1c21}.header__right-info{display:none}.wrapper_scroll{display:none}.main__title-image--tablet{display:none}.main__title-image--desktop{display:none}.main-brand-wrapper{display:none}.main-brand-desktop{display:none}.header__divider{content:"";width:2px;height:32px;background:#eaeaea;border-radius:1px;display:inline-block;margin-right:20px;margin-top:5px}.container{min-width:320px}.header__wrapper{display:flex;align-items:center;justify-content:space-between;width:100%;height:88px;padding:19px 16px;background:#fff}button{cursor:pointer}.header__left-menu{display:flex;align-items:center}.header__right-menu{display:flex}.header__item{height:40px;width:40px;border:none;outline:none;border-radius:50%;cursor:pointer}.header__logo{display:flex}.menu{margin-right:17px;background-image:url(assets/main.svg)}.logo{height:50px;width:96px}.header__item-application{margin-right:17px;background-image:url(assets/application.svg)}.header__divider{content:"";width:2px;height:32px;background:#eaeaea;border-radius:1px;display:inline-block;margin-right:20px;margin-top:5px}.header__navigation{display:flex}.header__item-status{background-image:url(assets/status.svg)}.header__item-call{margin-right:17px;background-image:url(assets/call.svg)}.header__item-profile{margin-right:17px;background-image:url(assets/profile.svg)}.header__item-chat{margin-right:17px;background-image:url(assets/chat.svg)}main{padding-top:24px;height:auto;background:#f8f8f8}.main__title{display:flex;height:40px;margin-bottom:20px}h1{font-family:"TT Lakes Bold";margin-left:12px;font-size:28px;font-weight:bold;display:contents}h1::before{content:"";display:inline-block;width:4px;height:40px;background:#41f6d7;margin-right:16px}.slider__but{margin-top:20px;width:224px;height:72px;margin-left:16px;border:1px solid #eaeaea;border-radius:6px;background-repeat:no-repeat;background-position:16px center,168px 16px;background-color:#fff}.main__slide-menu{padding-left:20px;margin-bottom:20px;height:40px;display:flex;overflow:scroll;align-items:center}.main__slide-menu::-webkit-scrollbar{display:none}.main__item{margin-right:20px;color:#7e7e82;cursor:pointer}.main__item:active{padding:8px;border:2px solid #b8ffec;border-radius:6px;width:auto;height:auto;background-color:#fff}.main__text{margin-left:16px;margin-right:16px;font-size:14px;line-height:18px;overflow:hidden;height:215px}.main__scrol--later{display:flex;margin:0 0 10px 24px;align-items:center;border:none;background:#f8f8f8;padding:0;padding-top:25px;padding-bottom:20px}.scroll__changer__brand,.scroll__changer__othertechno{display:flex;margin-left:24px;align-items:center;border:none;background:#f8f8f8;padding:0;padding-top:25px;padding-bottom:20px}.scroll__changer__brand::before,.scroll__changer__othertechno::before{content:"";background:url(assets/icon.svg) no-repeat center;top:5px;left:34px;width:20px;height:20px;z-index:10}.main__scrol--later::before{content:"";background:url(assets/icon.svg) no-repeat center;top:5px;left:34px;width:20px;height:20px;z-index:10}.main__later--read{margin-left:16px;font-size:16px;font-weight:bold;font-family:"TT Lakes";color:#1b1c21}.main__later--read--text{margin-left:16px;font-size:16px;font-weight:bold;font-family:"TT Lakes";color:#1b1c21}.main__title-image{margin-top:20px;height:auto}.main__heading{display:flex}.main__right-menu{display:none}.swiper-slide{padding-bottom:40px}.swiper-section{background-color:#f8f8f8}@media(min-width: 767px){.slider__but{margin:0}.swiper-slide{padding:0}.wrapper_scroll{display:block}.swiper-wrapper-main-techno{padding-bottom:80px;margin:0}.swiper-wrapper{display:flex;flex-wrap:wrap;justify-content:flex-start;background:#f8f8f8;padding:20px;gap:28px;overflow:hidden;height:180px}.techniks{height:160px}.main-brand-wrapper{display:block}.header__logo::before{content:"";width:2px;height:32px;background:#eaeaea;border-radius:1px;display:inline-block;margin-right:20px;margin-top:5px}.header__right-info{display:flex}.main__text--second{display:flex}.main__content{display:flex}.main__title-image--mobile{display:none}.main__title-image--tablet{display:flex;border-radius:6px;margin-right:17px}.main__content__text--later{width:50%}img{border-radius:6px}.main__title-image{width:50%}.swiper-slide{width:224px;height:72px}}@media(min-width: 1120px){.main-brand-desktop{display:block}.header__wrapper{display:none}.main__title{justify-content:space-between}.main__right-menu{display:flex}.main__title-image--tablet{display:none}.main__title-image--desktop{display:flex;width:auto;height:307px;overflow:hidden}.main__content__text--later{width:50%}}.main__item_application--href{display:flex;align-items:center}.main__item_status--href{display:flex;align-items:center;margin-right:17px}.text_button{margin-right:8px}.main__title-image--stretch{height:auto;width:100%;min-width:320px;min-height:170px}.swiper{display:flex;align-items:center}.swiper-title{font-size:16px;color:#7e7e82;margin:0;font-weight:400;border-top:1px solid #d9fff5;width:100%;height:80px;padding:16px;text-transform:uppercase;background:linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%)}.swiper-slider-container{height:72px;position:relative}.swiper-wrapper{position:relative}.slide-one{display:flex;width:224px;height:72px;border:1px solid #eaeaea;border-radius:6px;background-color:#fff;align-items:center;justify-content:space-between;margin-bottom:22px;margin-left:16px;padding-left:8px}.slide-one-right-image{width:40px;height:40px;background-image:url(assets/go.svg)}.swiper-pagination{margin-top:20px}.pagination-wrapper{margin-top:20px}.slider-overlay{width:20px;height:120px;position:absolute;z-index:2;right:0;bottom:35px;background:linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%)}.main-title-tab{height:80px;padding:16px;text-transform:uppercase;background:linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);border-top:1px solid #d9fff5}.brand-button{height:72px;width:224px;border-radius:6px;display:flex;border:1px solid #eaeaea;border-radius:6px;background-color:#fff;align-items:center;justify-content:space-between;padding:16px}.main-brand-desktop-button{display:flex;flex-wrap:wrap;justify-content:space-around;background:#f8f8f8;padding-top:24px;gap:20px}.wrapper_scroll{background:#f8f8f8}.desktop-brand-need-hidd{display:flex;flex-wrap:wrap;justify-content:space-around;background:#f8f8f8;padding-top:24px;gap:20px}.scroll__changer__brandy{display:flex;margin:0 0 10px 24px;align-items:center;border:none;background:#f8f8f8;padding:0;padding-top:25px;padding-bottom:20px}.hidden{height:auto}.activite::before{transform:rotate(-180deg)}.lenovo{background-image:url(assets/lenovo.svg),url(assets/go.svg)}.samsung{background-image:url(assets/samsung.svg),url(assets/go.svg)}.apple{background-image:url(assets/apple.svg),url(assets/go.svg)}.sonic{background-image:url(assets/sonic.svg),url(assets/go.svg)}.bosch{background-image:url(assets/bosch.svg),url(assets/go.svg)}.hp{background-image:url(assets/hp.svg),url(assets/go.svg)}.aser{background-image:url(assets/acer.svg),url(assets/go.svg)}.sony{background-image:url(assets/sony.svg),url(assets/go.svg)}.slide-techno{height:160px}.slide-left-techno{margin-bottom:90px;font-size:16px;font-family:"TT Lakes";font-weight:bold}.slide-right-techno{margin-bottom:-75px}.swiper--non{display:none}.slide-price{display:flex;width:260px;flex-direction:column;height:200px;align-items:flex-start;margin-top:20px}li{list-style-type:none}.swiper-slide-price-text{font-size:14px;margin-top:10px}.swiper-price-button{background:url("assets/Group%2010.svg") no-repeat center;width:120px;height:32px;outline:none;border-radius:16px;cursor:pointer;border:none}.mobile--price{left:128px;position:relative;top:-10px}@media(min-width: 767px){.slide-techno{margin-left:-5px}.main-down-comercial{width:auto}}.main-down-info{margin:16px;font-size:14px;line-height:20px}.main-down-comercial{width:192px;height:55px;margin:16px 16px 0 16px;font-size:16px;line-height:24px;color:#1b1c21;font-weight:bold}.main-down-comercial-text::after{content:"";display:inline-block;background-image:url(assets/go.svg);background-repeat:no-repeat;background-position:center;width:20px;height:20px;vertical-align:middle}@media(min-width: 767px){.main-down-comercial{width:auto}}a{-webkit-text-decoration:none;text-decoration:none;color:#1b1c21}.footer{background-color:#f8f8f8;border-top:solid 1px #d9fff5;padding:20px}.footer-info{text-align:center;padding:0;font-size:14px;line-height:16px;letter-spacing:0px;color:#7e7e82}.footer-info-text{padding-bottom:16px}li{list-style-type:none}@media(min-width: 767px){.main-down-info{width:420px}}@media(min-width: 767px){.footer-info{display:flex}.footer-align-left{text-align:left;width:33%}.footer-align-center{width:33%}.footer-align-right{text-align:right;width:33%}}@media(max-width: 767px){.tab-price{display:none}}.tab-price{margin-left:20px;margin-right:20px}.text-changer-color{color:#7e7e82;font-weight:200;opacity:.72;font-size:14px}.tab-price table{width:100%;border-collapse:collapse}.tab-price tr{position:relative}.tab-price tr:not(:first-child):not(:last-child):after{content:"";bottom:0;left:14px;right:100px;height:1px;width:calc(100% - 45px);position:absolute;background-color:#eaeaea;z-index:10}@media(min-width: 1440px){.tab-price tr:after{left:20px}}.tab-price th,.tab-price td{text-align:left;height:64px}@media(min-width: 768px){.tab-price th{padding-left:16px}}.tab-price td{background-color:#fff;font-size:16px;line-height:24px;padding-left:16px;padding-right:16px;min-width:90px}@media(min-width: 1440px){.tab-price td{padding-left:24px}}.tab-price td:last-child,.tab-price td:nth-child(2){border-radius:6px}.call--modal{position:absolute;top:0;right:0;height:250%;width:100vw;z-index:500;opacity:0;transition:transform .3s .1s, opacity .2s;transform:translateX(-300%)}.call--modal--view{transform:translateX(0);opacity:2}.call__content--modal{position:absolute;top:0;right:0;margin-left:auto;background-color:#fff;border-left:1px solid #d9fff5;padding:40px 32px 0 32px;max-width:440px;min-width:280px;min-height:100%;z-index:200;box-sizing:border-box}@media(max-width: 330px){.call__content--modal{left:0;right:auto}}@media(max-width: 767px){.call__content--modal{padding:24px 24px 0 16px}}.appearance{border:2px solid #ff3e79;border-radius:50%;height:40px;width:40px;margin-right:16px;background-color:#ff3e79;cursor:pointer;background-repeat:no-repeat;background-position:center}.connect>.appearance{margin-bottom:16px}.connect>.appearance{margin-right:16px}.feedback__content_but{background-image:url(assets/burger.svg);margin-bottom:40px}@media(min-width: 768px){.feedback__content_but{position:absolute;top:39px;left:-72px}}.feedback__content_buton{background-image:url(assets/burger.svg);margin-bottom:40px}@media(min-width: 768px){.feedback__content_buton{position:absolute;top:39px;left:-72px}}.heading__main-title--modal{font-size:28px;text-align:left;line-height:42px;font-family:"TT Lakes",sans-serif;font-weight:700;position:relative;margin-top:0;margin-bottom:0}@media(min-width: 768px){.heading__main-title--modal:before{left:0px}}@media(min-width: 1120px){.heading__main-title--modal:before{width:3px;top:0;left:-32px}}@media(min-width: 1120px){.heading__main-title--modal{padding-top:0}}.data{font-size:16px;line-height:24px;font-family:"TT LakesMed",sans-serif;font-weight:200;opacity:.72;width:calc(100% - 16px);height:48px;padding-left:16px;background:#fff;border:1px solid #eaeaea;border-radius:8px;margin-bottom:16px;margin-right:2px}.call__but--modal{position:absolute;height:100%;min-width:100%;background-color:rgba(255,255,255,.9);border:none}.feedback{position:absolute;height:250%;top:0;right:0;width:100vw;z-index:100;opacity:0;transition:transform .3s .1s, opacity .2s;transform:translateX(-300%)}.feedback--view{opacity:1;transform:translateX(0)}.feedback__content{position:absolute;top:0;right:0;margin-left:auto;background-color:#fff;border-left:1px solid #d9fff5;padding:40px 32px 0 32px;max-width:440px;min-width:280px;min-height:100%;z-index:200;box-sizing:border-box}.feedback__visible{opacity:1;transition:opacity .4s, transform .2s;transform:translateX(0);background:rgba(255,255,255,.8)}@media(max-width: 330px){.feedback__content{left:0;right:auto}}@media(max-width: 767px){.feedback__content{padding:24px 24px 0 16px}.main__text{height:110px}}.data{font-size:16px;line-height:24px;font-family:"TT LakesMed",sans-serif;font-weight:200;opacity:.72;width:calc(100% - 16px);height:48px;padding-left:16px;background:#fff;border:1px solid #eaeaea;border-radius:8px;margin-bottom:16px;margin-right:2px}.message::-moz-placeholder{vertical-align:top;transform:translateY(-25.5px)}.message::placeholder{vertical-align:top;transform:translateY(-25.5px)}.message{height:118px}.approval{font-size:14px;line-height:16px;font-family:"TT Lakes";font-weight:200;color:#7e7e82;min-width:288px;max-width:376px}.red--text{color:#ff3e79;cursor:pointer}.to-send{width:136px;height:32px;border-radius:16px;border:none;font-size:14px;line-height:24px;font-weight:900;font-family:"TT Lakes";color:#fff;display:flex;padding:4px 12px;background:#ff3e79 url(assets/goside.svg) no-repeat right 3px top 5px;cursor:pointer;margin-left:auto}.feedback__but{position:absolute;height:100%;min-width:100%;background-color:rgba(255,255,255,.9);border:none}.burger_but{position:absolute;height:100%;min-width:100%;background-color:rgba(255,255,255,.9);border:none}aside{display:flex;flex-direction:column;justify-content:space-between;width:320px;height:100vh;padding:24px;box-shadow:10px 10px 37px -6px;position:absolute;top:0px;z-index:11;background-color:#fff}.header--burger{height:50px}.header__nav--burger{display:flex;width:100%;align-items:center;justify-content:space-between}.header__left--menu{display:flex;width:200px;align-items:center}.header__right--menu{display:flex;align-items:center}button{border:none;outline:none;cursor:pointer}button:hover{filter:opacity(80%);transform:scale(1.1)}.header__item--burger{width:40px;height:40px;border-radius:50%}.left_close--burger{background-image:url(assets/burger.svg);margin-right:17px}.header__logo--burger{display:flex}.logo--burger{height:50px;width:96px}.search--burger{background-image:url(assets/search.svg)}.main--burger{width:226px;margin-left:-24px}button.header__item--burger.search{margin-left:70px}a{-webkit-text-decoration:none;text-decoration:none;font-family:"TT Lakes";font-size:16px;line-height:24px;letter-spacing:-0.2px;color:#1b1c21;font-weight:bold}.main__menu--burger{list-style:none;padding-left:24px}.main__item--burger{display:flex;margin-top:24px;align-items:center}.link--burger:hover{color:#7e7e82}.footer__info--burger{display:flex}.footer__item--burger{height:40px;width:40px;border-radius:50%}.footer__item--call--burger{margin-right:17px;background-image:url(assets/call.svg)}.footer__item--profile--burger{margin-right:17px;background-image:url(assets/profile.svg)}.footer__item--chat--burger{margin-right:17px;background-image:url(assets/chat.svg)}.mail-text--burger{font-weight:bold;font-size:16px;line-height:24px;letter-spacing:-0.2px}.phone-number--burger{font-size:24px;line-height:32px;font-weight:bold;font-family:"TT Lakes Bold"}.footer__languages--burger{margin-top:30px}.footer__changer--burger{display:flex;list-style:none;margin-left:-40px}.footer__select--burger{padding-right:7px}.languages-select--burger{color:#7e7e82}.main--burger{position:relative}.main__item--burger::before{content:"";display:inline-block;width:4px;height:40px;background:#41f6d7;margin-right:16px;position:absolute;left:0;border-radius:0 5px 5px 0;opacity:0}.main__item--burger:active:before{opacity:1}.footer--burger a{display:block;margin-top:16px}.call__visible{display:block;opacity:1;transition:opacity .4s, transform .2s;transform:translateX(0);background:rgba(255,255,255,.8)}.content-hidden{display:block}.overlay--wrapper{position:absolute;height:100vh;width:100vw;transform:translateX(-200%)}.burger--overlay{background-color:rgba(255,255,255,.9);position:relative;height:220vh;top:0px;z-index:2}.aside--visible{transform:translateX(0);z-index:45;position:fixed}@media(min-width: 1120px){.burger{position:relative;width:320px;transform:translateX(0);transition:transform .3s;background-color:rgba(0,0,0,0)}}@media(min-width: 1120px){.burger__menu{box-shadow:none;height:250vh}}@media(min-width: 1120px){.burger__but{display:none}}@media(min-width: 1120px){.container{margin-left:320px}.left_close--burger{display:none}.container-flex{display:flex}.overlay--wrapper{transform:translateX(0);width:0;z-index:40}aside{box-shadow:none}}table tbody tr:nth-child(2) td:first-child{border-top-left-radius:6px}table tbody tr::nth-child(2) td:last-child{border-top-right-radius:6px}table tbody tr:last-child td:first-child{border-bottom-left-radius:6px}table tbody tr:last-child td:last-child{border-bottom-right-radius:6px}.hiddentext{height:auto}
